@@ -1,0 +1,52 @@
+.chat {
+    background-color: lightgray;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+.header {
+    background-color: gray;
+    color: white;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h3 {
+    font-size: 1em;
+}
+
+.main {
+    padding: 30px;
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.main ul {
+    list-style: none;
+}
+
+.main ul li {
+    margin: 10px 0;
+}
+
+.footer {
+    background-color: gray;
+    color: white;
+    padding: 20px;
+}
+
+.formulario {
+    display: flex;
+    gap: 20px;
+}
+
+.formulario button {
+    width: 300px;
+}
+
+.owner {
+    color: green;
+}
